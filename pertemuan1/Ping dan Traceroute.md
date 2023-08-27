@@ -1,3 +1,10 @@
+
+<style>
+.isi {
+  font-family:bahnschrift;
+}
+</style>
+
 <p>Nama : Muhammad Arief Satria Wibawa</p>
 <p>NRP : 3122600015</p>
 <p>Kelas : D4 IT A</p>
@@ -70,9 +77,3 @@
     <td>Status yang menandakan apakah paket yang dikirimkan berhasil diterima dengan baik di host atau tidak</td>
 </tr>
 </table>
-
-<style>
-.isi {
-  font-family:bahnschrift;
-}
-</style>
