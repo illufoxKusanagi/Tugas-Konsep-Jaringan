@@ -1,10 +1,4 @@
 
-<style>
-.isi {
-  font-family:bahnschrift;
-}
-</style>
-
 <p>Nama : Muhammad Arief Satria Wibawa</p>
 <p>NRP : 3122600015</p>
 <p>Kelas : D4 IT A</p>
