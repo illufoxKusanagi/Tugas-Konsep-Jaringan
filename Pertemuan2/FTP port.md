@@ -5,7 +5,6 @@
 **<h1 style="font-family:bahnschrift;">Apa itu FTP, TCP, dan UDP?</h1>**
 
 
-
 **<h3 style="font-family:bahnschrift;">FTP</h3>**
 
 >FTP (File Transfer Protocol) ialah protokol komunikasi standar yang digunakan untuk transfer file dari satu komputer ke komputer lain melalui jaringan. FTP dibangun pada arsitektur model client-server menggunakan kontrol terpisah dan koneksi data antara client dan server. FTP memungkinkan user untuk mengirimkan data dengan mudah dan aman.
