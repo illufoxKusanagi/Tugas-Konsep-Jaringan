@@ -7,13 +7,13 @@
 
 **<h3 style="font-family:bahnschrift;">FTP</h3>**
 
->FTP (File Transfer Protocol) ialah protokol komunikasi standar yang digunakan untuk transfer file dari satu komputer ke komputer lain melalui jaringan. FTP dibangun pada arsitektur model client-server menggunakan kontrol terpisah dan koneksi data antara client dan server. FTP memungkinkan user untuk mengirimkan data dengan mudah dan aman.
+><div class ="isi" style="font-family:bahnschrift;">FTP (File Transfer Protocol) ialah protokol komunikasi standar yang digunakan untuk transfer file dari satu komputer ke komputer lain melalui jaringan. FTP dibangun pada arsitektur model client-server menggunakan kontrol terpisah dan koneksi data antara client dan server. FTP memungkinkan user untuk mengirimkan data dengan mudah dan aman.
 
 **<h3 style="font-family:bahnschrift;">TCP</h3>**
->TCP (Transmission Connection Protocol) ialah protokol transport yang berbasis koneksi, yang berarti TCP akan membuat koneksi terlebih dahulu sebelum memulai transfer data. Koneksi ini akan dijaga selama pengirima data berlangsung.
+><div class ="isi" style="font-family:bahnschrift;">TCP (Transmission Connection Protocol) ialah protokol transport yang berbasis koneksi, yang berarti TCP akan membuat koneksi terlebih dahulu sebelum memulai transfer data. Koneksi ini akan dijaga selama pengirima data berlangsung.
 
 **<h3 style="font-family:bahnschrift;">UDP</h3>**
->UDP (User Datagram Protocol) adalah protokol transport yang tidak berbasis koneksi, yang berarti UDP tidak akan membuat koneksi terlebih dahulu sebelum memulai transfer data. UDP akan mengirimkan paket data secara langsung tanpa perlu menunggu koneksi dibuat. Hal ini membuat UDP lebih cepat dan efisien untuk transfer data yang kecil dan tidak penting.
+><div class ="isi" style="font-family:bahnschrift;">UDP (User Datagram Protocol) adalah protokol transport yang tidak berbasis koneksi, yang berarti UDP tidak akan membuat koneksi terlebih dahulu sebelum memulai transfer data. UDP akan mengirimkan paket data secara langsung tanpa perlu menunggu koneksi dibuat. Hal ini membuat UDP lebih cepat dan efisien untuk transfer data yang kecil dan tidak penting.
 
 **<h1 style="font-family:bahnschrift;">Mengapa FTP bisa menggunakan TCP atau UDP?</h1>**
 
