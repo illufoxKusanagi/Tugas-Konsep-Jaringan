@@ -8,10 +8,11 @@ Kelas  : D4 IT A
 **<h1 style="font-family:bahnschrift;">SIMULASI JARINGAN MENGGUNAKAN CISCO PACKET TRACER</h1>**
 
 ***<h2 style="font-family:bahnschrift;">Scenario yang digunakan : </h2>***
-1. <div class ="isi" style="font-family:bahnschrift;"> Ping dari PC 0 ke PC 1 
-2. <div class ="isi" style="font-family:bahnschrift;"> Ping dari PC 0 ke PC 1
-3. <div class ="isi" style="font-family:bahnschrift;"> Ping dari PC 0 ke PC 2
-4. <div class ="isi" style="font-family:bahnschrift;"> Ping dari PC 0 ke PC 3
+1. <div class ="isi" style="font-family:bahnschrift;"> Ping dari PC 0 (192.168.1.3) ke PC 1 (192.168.1.2) dengan broadcast
+2. <div class ="isi" style="font-family:bahnschrift;"> Ping dari PC 0 (192.168.1.3) ke PC 1 (192.168.1.2)
+3. <div class ="isi" style="font-family:bahnschrift;"> Ping dari PC 0 (192.168.1.3) ke PC 2 (192.168.6.2)
+4. <div class ="isi" style="font-family:bahnschrift;"> Ping dari PC 0 (192.168.1.3) ke PC 1 (192.168.6.3)
+5. <div class ="isi" style="font-family:bahnschrift;"> Ping dari PC 0 (192.168.1.2) ke PC 1 Menggunakan PT-Hub
 
 
 ***<h2 style="font-family:bahnschrift;">Persiapan</h2>***
