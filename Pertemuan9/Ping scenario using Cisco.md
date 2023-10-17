@@ -55,7 +55,7 @@ Pada pengiriman kali ini, PC 0 dengan address <strong>192.168.1.3</strong> mengi
 ***<h4 style="font-family:bahnschrift;">4. Ping dari PC 0 ke PC 3</h4>***
 
 <div class ="isi" style="font-family:bahnschrift;"> Membuka command prompt pada <strong>PC 0</strong>, dan melakukan ping ke address <strong>PC 3</strong><br>
-<img src="assets/ping 0-3 part 1.png">
+<img src="assets/ping 0-3 part 1.png"><br>
 Pada pengiriman kali ini, <strong>PC 0</strong> dengan address <strong>192.168.1.3</strong> mengirim packet menuju <strong>PC 3</strong> dengan address <strong>192.168.6.3</strong>  yang mana berada dalam switch yang berbeda. Terlihat bahwa pengiriman pertama mengalami RTO yang disebabkan oleh ARP caching, ketika mencoba untuk berkomunikasi dengan host yang baru, sehingga memicu proses ARP untuk mencari address tujuan. Namun, pada proses berikutnya reply yang didapatkan dengan cepat
 <img src="assets/ping 0-3 part 2.png">
 
