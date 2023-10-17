@@ -12,7 +12,7 @@ Kelas  : D4 IT A
 2. <div class ="isi" style="font-family:bahnschrift;"> Ping dari PC 0 (192.168.1.3) ke PC 1 (192.168.1.2)
 3. <div class ="isi" style="font-family:bahnschrift;"> Ping dari PC 0 (192.168.1.3) ke PC 2 (192.168.6.2)
 4. <div class ="isi" style="font-family:bahnschrift;"> Ping dari PC 0 (192.168.1.3) ke PC 1 (192.168.6.3)
-5. <div class ="isi" style="font-family:bahnschrift;"> Ping dari PC 0 (192.168.1.2) ke PC 1 Menggunakan PT-Hub
+5. <div class ="isi" style="font-family:bahnschrift;"> Ping dari PC 0 (192.168.1.2) ke PC 1 (192.168.1.3) Menggunakan PT-Hub
 
 
 ***<h2 style="font-family:bahnschrift;">Persiapan</h2>***
