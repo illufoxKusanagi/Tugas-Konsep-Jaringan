@@ -33,7 +33,7 @@ Kelas  : D4 IT A
 ***<h2 style="font-family:bahnschrift;">Percobaan</h2>***
 
 ***<h4 style="font-family:bahnschrift;">1. Ping dari PC 0 ke PC 1 (broadcast)</h4>***
-<div class ="isi" style="font-family:bahnschrift;"> Membuka command prompt pada <strong>PC 0</strong>, dan melakukan ping ke address <strong>PC 1</strong>
+<div class ="isi" style="font-family:bahnschrift;"> Membuka command prompt pada <strong>PC 0</strong>, dan melakukan ping ke address <strong>PC 1</strong><br>
 <img src="assets/Ping 0-1 part 1.png"> <br>
 Pada pengiriman pertama, <strong>PC 0</strong> dengan address <strong>192.168.1.3</strong>  dan PC 1 melakukan broadcast, dimana <strong>PC 0</strong> menghubungkan ke <strong>PC 1</strong> dengan mencari IP addressnya. Setelah mendapatkan IP address dari <strong>PC 1</strong>, <strong>PC 0</strong> sebagai pengirim, mengirimkan packet sebanyak 4 kali ke penerima, yaitu <strong>PC 1</strong>.
 <img src="assets/ping 0-1 part 8.png"><br>
