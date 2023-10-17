@@ -28,11 +28,8 @@ Kelas  : D4 IT A
 
 7. <div class ="isi" style="font-family:bahnschrift;"> Keterangan Kesalahan: Jika ada masalah dengan koneksi, Anda mungkin akan melihat keterangan kesalahan seperti "Request Timed Out" (Permintaan Waktu Habis), yang menunjukkan bahwa paket data tidak berhasil sampai ke tujuan dalam batas waktu yang ditentukan.
 
-<div class ="isi" style="font-family:bahnschrift;"> Percobaan ping www.detik.com
-
-<div align="center">
-    <img src="assets/ping1.png">
-</div>
+<div class ="isi" style="font-family:bahnschrift;"> Percobaan ping www.detik.com<br>
+    <img src="assets/pingminggu 7.png">
 
 <div class ="isi" style="font-family:bahnschrift;"> Analisa :
 
@@ -72,10 +69,7 @@ Kelas  : D4 IT A
 
 <div class ="isi" style="font-family:bahnschrift;"> Percobaan tracert www.detik.com : 
 <br>
-<div align="center">
-    <img src="assets/tracert1.png">
-    <p><strong>Gambar:</strong> Traceroute ke www.detik.com</p>
-</div>
+    <img src="assets/tracertminggu7.png">
 
 <div class ="isi" style="font-family:bahnschrift;"> Analisa :
 
