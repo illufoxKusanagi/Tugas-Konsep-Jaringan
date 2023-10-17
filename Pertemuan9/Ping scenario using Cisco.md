@@ -47,7 +47,7 @@ Pada pengiriman kedua ini, PC 0 dengan address <strong>192.168.1.3</strong>  dan
 
 ***<h4 style="font-family:bahnschrift;">3. Ping dari PC 0 ke PC 2</h4>***
 
-<div class ="isi" style="font-family:bahnschrift;"> Membuka command prompt pada <strong>PC 0</strong>, dan melakukan ping ke address <strong>PC 2</strong><br>
+<div class ="isi" style="font-family:bahnschrift;"> Membuka command prompt pada <strong>PC 0</strong>, dan melakukan ping ke address <strong>PC 2</strong> <br>
 <img src="assets/ping 0-2 part 1.png"><br>
 Pada pengiriman kali ini, PC 0 dengan address <strong>192.168.1.3</strong> mengirim packet menuju PC 2 dengan address <strong>192.168.6.2</strong>  yang mana berada dalam switch yang berbeda. Sama seperti percobaan sebelumnya, pengiriman packet pertama lebih lama dibandingkan yang sesudahnya karena ia melakukan broadcast terlebih dahulu, untuk mengenali IP address dari PC 2<br>
 <img src="assets/ping 0-2 part 2.png">
