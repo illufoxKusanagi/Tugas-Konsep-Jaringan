@@ -103,34 +103,37 @@ Kelas  : D4 IT A
 - <div class ="isi" style="font-family:bahnschrift;"> Mengatur Default Gateway pada tiap PC sesuai kelompok<br>
 
   - Kelompok 7<br>
-  <img src="assets/PC_kel7.png"> <br>
+  <img src="assets/PC_kel7.png"> <br><br>
 
   - <div class ="isi" style="font-family:bahnschrift;">  Kelompok 8<br>
-    <img src="assets/PC_kel8.png"> <br>
+    <img src="assets/PC_kel8.png"> <br><br>
 
 - <div class ="isi" style="font-family:bahnschrift;"> Mengisi IP address pada tiap PC sesuai kelompok<br>
   
   - Kelompok 7<br>
     <img src="assets/PC_kel7.1.png"> <br>
     <img src="assets/PC_kel7.2.png"> <br>
-    <img src="assets/PC_kel7.3.png"> <br>
+    <img src="assets/PC_kel7.3.png"> <br><br>
+
   -  Kelompok 8<br>
     <img src="assets/PC_kel8.1.png"> <br>
     <img src="assets/PC_kel8.2.png"> <br>
-    <img src="assets/PC_kel8.3.png"> <br>
+    <img src="assets/PC_kel8.3.png"> <br><br>
 
 ***<h4 style="font-family:bahnschrift;">2. Konfigurasi sub-Router</h4>*** 
 - <div class ="isi" style="font-family:bahnschrift;"> Mengatur IP dan Subnet pada FastEthernet yang terhubung ke tiap PC (3 pc)<br>
   
   - Kelompok 7
-    <img src="assets/IP_kel7.1.png"> <br>
+    <img src="assets/IP_kel7.1.png"> <br><br>
+
   - Kelompok 8
     <img src="assets/IP_kel8.1.png"> <br>
 - <div class ="isi" style="font-family:bahnschrift;"> Mengatur IP dan Subnet pada FastEthernet yang terhubung ke Router Utama<br>
   
   - Kelompok 7
     <img src="assets/IP_kel7.2.png"> <br>
-    <img src="assets/IP_kel7.3.png"> <br>
+    <img src="assets/IP_kel7.3.png"> <br><br>
+
   - Kelompok 8
     <img src="assets/IP_kel8.2.png"> <br>
     <img src="assets/IP_kel8.3.png"> <br>
