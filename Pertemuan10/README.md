@@ -88,8 +88,8 @@ Kelas  : D4 IT A
   <img src="assets/Ping1.png"> <br>
 
   > <div class ="isi" style="font-family:bahnschrift;"> Isi Name dengan bridge1.
-- <div class ="isi" style="font-family:bahnschrift;"> Percobaan terhadap kelompok 2
-  <img src="assets/Ping2.png"> <br>
+- <div class ="isi" style="font-family:bahnschrift;"> Percobaan terhadap kelompok 2<br>
+  <img src="assets/ping2.png"> <br>
 
   > Proses ping dengan kelompok 1 dan 2 berhasil, hal yang sama dapat kita lakukan dengan kelompok lain (kelompok 3-10).
 
