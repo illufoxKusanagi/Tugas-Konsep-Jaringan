@@ -44,16 +44,16 @@ Kelas  : D4 IT A
 
 <img src="assets/addAdrress.png"> <br>
 
-- <div class ="isi" style="font-family:bahnschrift;"> Isi address untuk router sesuai nomor kelompok
+- <div class ="isi" style="font-family:bahnschrift;"> Isi address untuk router sesuai nomor kelompok<br>
   <img src="assets/addAddress1.png"> <br>
 
   ><div class ="isi" style="font-family:bahnschrift;">  Kelompok 7 maka address kita isi dengan 10.252.108.17/24, network (10.252.108.0), dan interface ether1.
-- <div class ="isi" style="font-family:bahnschrift;"> Isi IP address untuk tiap PC kelompok 7
+- <div class ="isi" style="font-family:bahnschrift;"> Isi IP address untuk tiap PC kelompok 7<br>
 
   <img src="assets/addAddress2.png"> <br>
 
   ><div class ="isi" style="font-family:bahnschrift;">  Address kita isi dengan 192.168.7.1/24, network (192.168.7.0), dan interface bridge1.
-  <div class ="isi" style="font-family:bahnschrift;"> Tampilan setelah terisi
+  <div class ="isi" style="font-family:bahnschrift;"> Tampilan setelah terisi<br>
   <img src="assets/addAddress3.png"> <br>
 
 ***<h3 style="font-family:bahnschrift;">1.2. Mengisi Route pada Route List</h3>***
@@ -126,12 +126,11 @@ Kelas  : D4 IT A
     <img src="assets/IP_kel7.1.png"> <br>
   - Kelompok 8
     <img src="assets/IP_kel8.1.png"> <br>
-- <div class ="isi" style="font-family:bahnschrift;"> Mengatur IP dan Subnet pada FastEthernet yang terhubung ke Router Utama
-#### Kelompok 7
-<img src="assets/IP_kel7.2.png"> <br>
-<img src="assets/IP_kel7.3.png"> <br>
-#### Kelompok 8
-<img src="assets/IP_kel8.2.png"> <br>
-<img src="assets/IP_kel8.3.png"> <br>
-
-### Demikian Laporan Percobaan dari kelompok 7, dengan menggunakan winbox dan juga Cisco Packet Tracer
+- <div class ="isi" style="font-family:bahnschrift;"> Mengatur IP dan Subnet pada FastEthernet yang terhubung ke Router Utama<br>
+  
+  - Kelompok 7
+    <img src="assets/IP_kel7.2.png"> <br>
+    <img src="assets/IP_kel7.3.png"> <br>
+  - Kelompok 8
+    <img src="assets/IP_kel8.2.png"> <br>
+    <img src="assets/IP_kel8.3.png"> <br>
