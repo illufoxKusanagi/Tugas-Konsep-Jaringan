@@ -26,9 +26,9 @@ Kelas  : D4 IT A
 <div class ="isi" style="font-family:bahnschrift;">Ketika routing tentu saja kita memerlukan router. Router sendiri memiliki beberapa jenis, beberapa contohnya yakni Edge Router dan Core Router
 
 ***<h4 style="font-family:bahnschrift;">1. Edge Router</h4>*** 
-<div class ="isi" style="font-family:bahnschrift;">Digunakan untuk menghubungkan jaringan lokal (LAN) ke jaringan eksternal, seperti internet atau jaringan lainnya. Edge router bertanggung jawab untuk merutekan lalu lintas data antara LAN dan jaringan eksternal. Edge router juga biasanya menangani fungsi keamanan, seperti firewall dan intrusion detection system (IDS)
+> <div class ="isi" style="font-family:bahnschrift;">Digunakan untuk menghubungkan jaringan lokal (LAN) ke jaringan eksternal, seperti internet atau jaringan lainnya. Edge router bertanggung jawab untuk merutekan lalu lintas data antara LAN dan jaringan eksternal. Edge router juga biasanya menangani fungsi keamanan, seperti firewall dan intrusion detection system (IDS)
 
 ***<h4 style="font-family:bahnschrift;">2. Core Router</h4>*** 
-<div class ="isi" style="font-family:bahnschrift;">Digunakan untuk menghubungkan berbagai jaringan dalam sebuah organisasi. Core router bertanggung jawab untuk merutekan lalu lintas data antara jaringan-jaringan tersebut dengan efisiensi dan kinerja yang tinggi. Core router juga biasanya menangani fungsi-fungsi jaringan yang kompleks, seperti load balancing dan traffic shaping
+> <div class ="isi" style="font-family:bahnschrift;">Digunakan untuk menghubungkan berbagai jaringan dalam sebuah organisasi. Core router bertanggung jawab untuk merutekan lalu lintas data antara jaringan-jaringan tersebut dengan efisiensi dan kinerja yang tinggi. Core router juga biasanya menangani fungsi-fungsi jaringan yang kompleks, seperti load balancing dan traffic shaping
 
 **<h1 style="font-family:bahnschrift;">PERCOBAAN</h1>**
