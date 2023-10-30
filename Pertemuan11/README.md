@@ -10,7 +10,7 @@ Kelas  : D4 IT A
 <div class ="isi" style="font-family:bahnschrift;"> Routing sendiri dibagi menjadi 2, yakni Static Routing dan Dynamic Routing.
 
 ***<h4 style="font-family:bahnschrift;">1. Static Routing</h4>*** 
-- <div class ="isi" style="font-family:bahnschrift;"> Merupakan proses setting router jaringan menggunakan tabel routing yang dikonfigurasikan secara manual oleh network administrator, yang mana administrator menentukan secara ekplisit lalu lintas yang digunakan untuk perjalanan paket dari satu perangkat ke perangkat lainnya.
+> <div class ="isi" style="font-family:bahnschrift;"> Merupakan proses setting router jaringan menggunakan tabel routing yang dikonfigurasikan secara manual oleh network administrator, yang mana administrator menentukan secara ekplisit lalu lintas yang digunakan untuk perjalanan paket dari satu perangkat ke perangkat lainnya.
 
 - <div class ="isi" style="font-family:bahnschrift;">Karena setting router jaringan dilakukan secara manual, maka adminsitrator harus memperbarui secara manual jika ada perubahan, yang mana kurang cocok digunakan untuk jaringan besar yang memiliki banyak perubahan strukturnya.
 - <div class ="isi" style="font-family:bahnschrift;">Kelebihan dari Static routing ialah penghematan bandwidth karena tidak ada bandwidth yang terbuang saat bertukar paket serta mendapatkan informasi dari isi tabel routing selama pertukaran paket.
@@ -18,7 +18,7 @@ Kelas  : D4 IT A
 
 ***<h4 style="font-family:bahnschrift;">2. Dynamic Routing</h4>*** 
 
-- <div class ="isi" style="font-family:bahnschrift;"> Merupakan sebuah proses setting router yang memiliki dan membuat tabel routing secara otomatis, dengan mendengarkan lalu lintas jaringan dan juga dengan saling berhubungan antara router lainnya. 
+> <div class ="isi" style="font-family:bahnschrift;"> Merupakan sebuah proses setting router yang memiliki dan membuat tabel routing secara otomatis, dengan mendengarkan lalu lintas jaringan dan juga dengan saling berhubungan antara router lainnya. 
 - <div class ="isi" style="font-family:bahnschrift;">Protokol routing mengatur router-router sehingga dapat berkomunikasi satu dengan yang lain dan saling memberikan informasi satu dengan yang lain dan saling memberikan informasi routing yang dapat mengubah isi forwarding table, tergantung keadaan jaringannya.
 - <div class ="isi" style="font-family:bahnschrift;"> Karena konfigurasi disetting secara otomatis, maka administrator tidak perlu mengubah secara manual jika ada perubahan, dan lebih cocok untk digunakan untuk jaringan yang luas.
 
