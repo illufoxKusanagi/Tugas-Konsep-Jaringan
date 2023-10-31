@@ -35,9 +35,9 @@ Kelas  : D4 IT A
 
 <div class ="isi" style="font-family:bahnschrift;"> Pada percobaan kali ini, kami akan membuat topologi jaringan dengan beberapa host dengan ilustrasi berikut <br>
 
-<img src="" alt="image"><br>
+<img src="assets/Config0.png" alt="image"><br>
 
-<div class ="isi" style="font-family:bahnschrift;"> Diketahui IP yang akan digunakan ialah 
+<div class ="isi" style="font-family:bahnschrift;"> Kami menggunakan 2 PC untuk test pada tiap router, yang mewakili host yang telah diketahui.
 
 ```192.168.x.y```
 
@@ -90,7 +90,7 @@ Maka, hostnya memiliki 0 sebanyak 6 kali, dan 1 sebanyak 2 kali, sehingga netmas
 11111111.11111111.11111111.11000000/26
 ```
 
-<div class ="isi" style="font-family:bahnschrift;"> Setelah netmask dan prefixnya diketahui, maka kita bisa mencari subnet, host awal, host akhir dan IP broadcast dari masing-masing router. Daftarnya konfigurasnya antara lain : 
+<div class ="isi" style="font-family:bahnschrift;"> <strong>Setelah netmask dan prefixnya diketahui, maka kita bisa mencari subnet, host awal, host akhir dan IP broadcast dari masing-masing router. Daftarnya konfigurasnya antara lain : </strong>
 
 ***<h5 style="font-family:bahnschrift;">Router A</h5>*** 
 ```copy code
@@ -132,5 +132,45 @@ Host Akhir    : 192.168.4.190
 IP Broadcast  : 192.168.4.191
 ```
 
-<div class ="isi" style="font-family:bahnschrift;">Setelah mengetahui konfigurasi dari tiap router, kita bisa mengubah topologi pada packet tracer pada tiap router dan PC.<br>
-<img src="" alt="Update topologi"><br>
+<div class ="isi" style="font-family:bahnschrift;">Setelah mengetahui konfigurasi dari tiap router, kita bisa mengubah topologi pada packet tracer pada tiap router dan PC, sehingga membentuk topologi seperti berikut <br>
+<img src="assets/config1.png" alt="Update topologi"><br>
+<div class ="isi" style="font-family:bahnschrift;">Dengan konfigurasi sebagai berikut <br>
+
+***<h5 style="font-family:bahnschrift;">Router A</h5>*** 
+<img src="assets/Router A_static.png"><br>
+<img src="assets/Router A_fe0.png"><br>
+<img src="assets/Router A_fe1.png"><br>
+<img src="assets/Router A_fe2.png"><br>
+
+- <div class ="isi" style="font-family:bahnschrift;">Untuk konfigurasi tiap PC, kami mencantumkan 1 contoh untuk konfigurasi default gateway-nya.<br>
+    <img src="assets/PC_routerA.png"><br>
+    <div class ="isi" style="font-family:bahnschrift;">Untuk IP address pada tiap PC-nya, dimulai dari 192.168.1.129 hingga 192.168.1.190
+
+***<h5 style="font-family:bahnschrift;">Router B</h5>*** 
+<img src="assets/Router B_static.png"><br>
+<img src="assets/Router B_fe0.png"><br>
+<img src="assets/Router B_fe1.png"><br>
+<img src="assets/Router B_fe2.png"><br>
+<img src="assets/Router B_fe3.png"><br>
+
+- <div class ="isi" style="font-family:bahnschrift;">Untuk konfigurasi tiap PC, kami mencantumkan 1 contoh untuk konfigurasi default gateway-nya.<br>
+    <img src="assets/PC_routerB.png"><br>
+    <div class ="isi" style="font-family:bahnschrift;">Untuk IP address pada tiap PC-nya, dimulai dari 192.168.2.225 hingga 192.168.2.238
+
+***<h5 style="font-family:bahnschrift;">Router C</h5>*** 
+<img src="assets/Router C_static.png"><br>
+<img src="assets/Router C_fe0.png"><br>
+<img src="assets/Router C_fe1.png"><br>
+
+- <div class ="isi" style="font-family:bahnschrift;">Untuk konfigurasi tiap PC, kami mencantumkan 1 contoh untuk konfigurasi default gateway-nya.<br>
+    <img src="assets/PC_routerC.png"><br>
+    <div class ="isi" style="font-family:bahnschrift;">Untuk IP address pada tiap PC-nya, dimulai dari 192.168.3.193 hingga 192.168.3.222
+
+***<h5 style="font-family:bahnschrift;">Router D</h5>*** <img src="assets/Router A_static.png"><br>
+<img src="assets/Router D_fe0.png"><br>
+<img src="assets/Router D_fe1.png"><br>
+<img src="assets/Router D_fe2.png"><br>
+
+- <div class ="isi" style="font-family:bahnschrift;">Untuk konfigurasi tiap PC, kami mencantumkan 1 contoh untuk konfigurasi default gateway-nya.<br>
+    <img src="assets/PC_routerD.png"><br>
+    <div class ="isi" style="font-family:bahnschrift;">Untuk IP address pada tiap PC-nya, dimulai dari 192.168.4.129 hingga 192.168.4.190
