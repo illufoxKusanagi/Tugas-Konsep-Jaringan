@@ -32,3 +32,105 @@ Kelas  : D4 IT A
 > <div class ="isi" style="font-family:bahnschrift;">Digunakan untuk menghubungkan berbagai jaringan dalam sebuah organisasi. Core router bertanggung jawab untuk merutekan lalu lintas data antara jaringan-jaringan tersebut dengan efisiensi dan kinerja yang tinggi. Core router juga biasanya menangani fungsi-fungsi jaringan yang kompleks, seperti load balancing dan traffic shaping
 
 **<h1 style="font-family:bahnschrift;">PERCOBAAN</h1>**
+
+<div class ="isi" style="font-family:bahnschrift;"> Pada percobaan kali ini, kami akan membuat topologi jaringan dengan beberapa host dengan ilustrasi berikut <br>
+
+<img src="" alt="image"><br>
+
+<div class ="isi" style="font-family:bahnschrift;"> Diketahui IP yang akan digunakan ialah 
+
+```192.168.x.y```
+
+<div class ="isi" style="font-family:bahnschrift;"> Maka kita perlu menentukan nilai x dan mencari nilai y terlebih dahulu. Untuk nilai x, kami menggunakan nilai 1-4 untuk tiap routernya. Untuk menentukanp prefix y yang sudah diketahui, perlu dilakukan langkah-langkah sebagai berikut :
+
+***<h5 style="font-family:bahnschrift;">Router A</h5>*** 
+```copy code
+IP : 192.168.1.241
+Mencari nilai m
+Host = 62
+62 = 2^m - 2
+62 + 2 = 2^m
+m = 6
+
+Maka, hostnya memiliki 0 sebanyak 6 kali, dan 1 sebanyak 2 kali, sehingga netmasknya menjadi :
+11111111.11111111.11111111.11000000/26
+```
+
+***<h5 style="font-family:bahnschrift;">Router B</h5>*** 
+```copy code
+IP : 192.168.2.242
+Mencari nilai m
+Host = 14
+14 = 2^m - 2
+14 + 2 = 2^m
+m = 4
+Maka, hostnya memiliki 0 sebanyak 4 kali, dan 1 sebanyak 4 kali, sehingga netmasknya menjadi :
+11111111.11111111.11111111.11110000/28
+```
+***<h5 style="font-family:bahnschrift;">Router C</h5>*** 
+```copy code
+IP : 192.168.1.241
+Mencari nilai m
+Host = 30
+30 = 2^m - 2
+30 + 2 = 2^m
+m = 5
+Maka, hostnya memiliki 0 sebanyak 5 kali, dan 1 sebanyak 3 kali, sehingga netmasknya menjadi :
+11111111.11111111.11111111.11100000/27
+```
+***<h5 style="font-family:bahnschrift;">Router D</h5>*** 
+```copy code
+IP : 192.168.1.241
+Mencari nilai m
+Host = 62
+62 = 2^m - 2
+62 + 2 = 2^m
+m = 6
+Maka, hostnya memiliki 0 sebanyak 6 kali, dan 1 sebanyak 2 kali, sehingga netmasknya menjadi :
+11111111.11111111.11111111.11000000/26
+```
+
+<div class ="isi" style="font-family:bahnschrift;"> Setelah netmask dan prefixnya diketahui, maka kita bisa mencari subnet, host awal, host akhir dan IP broadcast dari masing-masing router. Daftarnya konfigurasnya antara lain : 
+
+***<h5 style="font-family:bahnschrift;">Router A</h5>*** 
+```copy code
+IP            : 192.168.1.241/26
+Netmask       : 255.255.255.192 (11111111.11111111.11111111.11000000)
+Subnet        : 192.168.1.128
+Host Awal     : 192.168.1.129
+Host Akhir    : 192.168.1.190
+IP Broadcast  : 192.168.1.191
+```
+
+***<h5 style="font-family:bahnschrift;">Router B</h5>*** 
+```copy code
+IP            : 192.168.2.242/28
+Netmask       : 255.255.255.240 (11111111.11111111.11111111.11110000)
+Subnet        : 192.168.2.224
+Host Awal     : 192.168.2.225
+Host Akhir    : 192.168.2.238
+IP Broadcast  : 192.168.2.239
+```
+
+***<h5 style="font-family:bahnschrift;">Router C</h5>*** 
+```copy code
+IP            : 192.168.1.243/27
+Netmask       : 255.255.255.224 (11111111.11111111.11111111.11100000)
+Subnet        : 192.168.3.192
+Host Awal     : 192.168.3.193
+Host Akhir    : 192.168.3.222
+IP Broadcast  : 192.168.3.223
+```
+
+***<h5 style="font-family:bahnschrift;">Router D</h5>*** 
+```copy code
+IP            : 192.168.4.244/26
+Netmask       : 255.255.255.192 (11111111.11111111.11111111.11000000)
+Subnet        : 192.168.4.128
+Host Awal     : 192.168.4.129
+Host Akhir    : 192.168.4.190
+IP Broadcast  : 192.168.4.191
+```
+
+<div class ="isi" style="font-family:bahnschrift;">Setelah mengetahui konfigurasi dari tiap router, kita bisa mengubah topologi pada packet tracer pada tiap router dan PC.<br>
+<img src="" alt="Update topologi"><br>
