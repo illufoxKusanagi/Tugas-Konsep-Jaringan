@@ -33,6 +33,7 @@ Protokol Routing mengatur tiap Router untuk dapat berkomunikasi antar Router sat
     Merupakan Routing Protocol yang memiliki kemampuan untuk melakukan  pengumpulan rute, pertukaran rute dan menentukan rute terbaik menuju ke sebuah  lokasi dalam sebuah jaringan. BGP termasuk ke dalam kategori routing protocol jenis Exterior Gateway  Protocol (EGP). BGP merupakan <i>distance vector exterior gateway protocol</i> yang  bekerja secara cerdas untuk merawat path-path ke jaringan lainnya. 
 
 **<h4 style="font-family:bahnschrift;">2.3. Keuntungan Dynamic Routing</h4>**
+
 - <div class ="isi" style="font-family:bahnschrift;">Hanya mengenalkan alamat yang terhubung langsung dengan routernya (jaringan  yang berada di bawah kendali router tersebut). 
 
 - <div class ="isi" style="font-family:bahnschrift;">Tidak perlu mengetahui semua alamat network yang ada. 
@@ -40,10 +41,12 @@ Protokol Routing mengatur tiap Router untuk dapat berkomunikasi antar Router sat
 - <div class ="isi" style="font-family:bahnschrift;">Jika terdapat penambahan suatu network baru, maka semua router tidak perlu  mengkonfigurasi. Hanya router-router yang berkaitan yang akan mengkonfigurasi  ulang. 
 
 **<h4 style="font-family:bahnschrift;">2.4. Kekurangan Dynamic Routing</h4>**
+
 - <div class ="isi" style="font-family:bahnschrift;">Kecepatan pengenalan dan kelengkapan IP table memakan waktu lama karena  router akan melakukan broadcast ke semua router sampai ada IP table yang cocok.  Setelah konfigurasi selesai, router harus menunggu beberapa saat agar setiap router  mendapat semua alamat IP yang tersedia.
 
 - <div class ="isi" style="font-family:bahnschrift;"> Beban kerja router menjadi lebih berat karena selalu memperbarui IP table pada  setiap waktu tertentu. 
 
 **<h2 style="font-family:bahnschrift;">3. Kesimpulan</h2>**
+
 <div class ="isi" style="font-family:bahnschrift;">
 <div class ="isi" style="font-family:bahnschrift;">Dari pembahasan yang sudah dipaparkan, maka dapat disimpulkan bahwa Dynamic Routing merupakan routing yang dikonfigurasi secara otomatis. Dibandingkan Static Routing, Dynamic Routing memiliki kelebihan, karena lebih efisien. Namun, untuk Dynamic Routing lebih cocok untuk digunakan oleh jaringan besar, dan akan memangkas waktu jauh lebih banyak dibandingkan Static Routing. 
